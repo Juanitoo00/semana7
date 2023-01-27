@@ -10,7 +10,7 @@ namespace semana7
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new login());
         }
 
         protected override void OnStart ()
